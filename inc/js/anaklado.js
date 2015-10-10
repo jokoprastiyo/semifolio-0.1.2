@@ -1,0 +1,5 @@
+jQuery(document).ready(function() {
+	jQuery( '.wp-full-overlay-sidebar-content' ).prepend( '<a style="width: 80%; margin: 5px auto 20px auto; display: block; text-decoration: none; text-align: center; color: #600060;" href=" https://wordpress.org/support /view/theme-reviews/semifolio?filter=5" class="button" target="_blank">'+ anaklado_buttons.rate +'</a>' );
+	jQuery( '.wp-full-overlay-sidebar-content' ).prepend( '<a style="width: 80%; margin: 5px auto 20px auto; display: block; text-align: center; color: #600060;" href="http://generasite.tk/" class="button" target="_blank">'+ anaklado_buttons.doc +'</a>' );
+	jQuery( '.wp-full-overlay-sidebar-content' ).prepend( '<a style="width: 80%; margin: 20px auto 20px auto; display: block; text-align: center; color: #600060;" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KDRXNW3Y94KZE" target="_blank">'+ anaklado_buttons.pro +'</a>' );
+});
